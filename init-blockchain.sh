@@ -9,3 +9,10 @@ git clone https://github.com/Chia-Network/chia-blockchain.git -b pools.2021-may-
 cd chia-blockchain
 
 sh install.sh
+
+cd chia-blockchain
+
+. ./activate
+chia init
+
+chia start all
